@@ -3,7 +3,6 @@ import ContactForm from './ContactForm';
 import ContactList from './ContactList';
 import FilterInput from './FilterInput';
 import { nanoid } from 'nanoid';
-import { logDOM } from '@testing-library/react';
 
 const initialState = [
   { id: nanoid(), name: 'Hermione Kline', number: '443-89-12' },
