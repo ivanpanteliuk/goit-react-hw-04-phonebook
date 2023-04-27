@@ -4,7 +4,6 @@ import { nanoid } from 'nanoid';
 import { Input, Button, Form, Label } from './ContactForm.styled';
 
 function ContactForm(props) {
-  // const [id, setId] = useState('');
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
